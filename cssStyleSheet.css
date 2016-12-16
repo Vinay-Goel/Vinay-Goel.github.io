@@ -1,0 +1,82 @@
+html
+{
+	background: #0b0b0b;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+
+
+a:link
+{
+	text-decoration: none;
+	color: #4e4e4e;
+}
+
+a:visited
+{
+	text-decoration: none;
+	color: #4e4e4e;
+}
+
+a:hover, a:active
+{
+	text-decoration: none;
+	color: #4e4e4e;
+	background-color: #e3e3e3;
+}
+
+
+#container
+{
+  position: fixed;
+	width: 50%;
+  height: 95%;
+  background-color: #ebebeb;
+  margin-left: 25%;
+  margin-top: 0%;
+  font-size: 15px;
+}
+
+#me
+{
+  margin-left: 4.5%;
+  border-radius: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#content
+{
+  position: absolute;
+  width: 68%;
+  margin-left: 9%;
+}
+
+#footer
+{
+  position: relative;
+  margin-top: 25%;
+  font-size: 13px;
+}
+
+#linkList
+{
+	position: absolute;
+
+  right: 6%;
+  top: 52%;
+
+  text-align: center;
+  font-size: 12px;
+  font-family: verdana, sans-serif;
+}
+
+#linkList li
+{
+	display: block;
+	padding: 16% 10% 16% 10%;
+  width: 150%;
+  margin-left: -70%;
+	margin-bottom: 10%;
+	background-color:#cfcfcf;
+}
