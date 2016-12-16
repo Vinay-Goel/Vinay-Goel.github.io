@@ -1,16 +1,16 @@
 html
 {
-	background: #0b0b0b;
-	margin: 0px;
+	background-color: #0b0b0b;
+	width: 1000px;
+	height: 630px;
+	margin: 0;
+	padding: 0;
 }
 
 body
 {
-	position: absolute;
 	margin: 0;
 	padding: 0;
-	margin-left: 25%;
-	margin-right: 25%;
 }
 
 
@@ -36,6 +36,8 @@ a:hover, a:active
 
 #container
 {
+	position: absolute;
+	margin-left: 25%;
 	width: 683px;
   height: 600px;
   background-color: #ebebeb;
