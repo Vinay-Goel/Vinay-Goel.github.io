@@ -30,8 +30,8 @@ a:hover, a:active
 #container
 {
   position: fixed;
-	width: 50%;
-  height: 95%;
+	width: 683px;
+  height: 600px;
   background-color: #ebebeb;
   margin-left: 25%;
   margin-top: 0%;
@@ -55,7 +55,8 @@ a:hover, a:active
 #footer
 {
   position: relative;
-  margin-top: 25%;
+  margin-top: 28%;
+	margin-left: 5%;
   font-size: 13px;
 }
 
