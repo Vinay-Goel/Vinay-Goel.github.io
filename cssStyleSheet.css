@@ -1,8 +1,6 @@
 html
 {
 	background: #0b0b0b;
-	overflow-x: scroll;
-	overflow-y: scroll;
 	margin: 0px;
 }
 
@@ -29,7 +27,7 @@ a:hover, a:active
 
 #container
 {
-  position: fixed;
+  position: absolute;
 	width: 683px;
   height: 600px;
   background-color: #ebebeb;
