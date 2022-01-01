@@ -2,6 +2,15 @@ $(document).ready( function() {
 
 	// Logo
 	var $logo 	= $('#logo');
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/61d03f3280b2296cfdd498d7/1foandnhv';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })()
 	 if (location.href.indexOf("#") != -1) {
         if(location.href.substr(location.href.indexOf("#"))!='#about'){
         	$logo.show();
@@ -40,3 +49,4 @@ animMeter();
             }
         });
     });
+  
